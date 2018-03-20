@@ -43,6 +43,9 @@ It's always worth checking whether your editor has a plugin that directly suppor
 [supports Flake8 directly](https://code.visualstudio.com/docs/python/linting), but it needs to be set up using the
 `Python: Select Linter` command.
 
+Additionally, you can install a Git hook for `flake8`. This is optional, but it will allow you to have `flake8` run
+every time you make a commit. You can do this by running `pipenv run flake8 --install-hook git`.
+
 If you're unsure about editor support, it's always worth googling around and seeing what other users have done to
 integrate `flake8`!
 
