@@ -31,8 +31,6 @@ in an already-opened terminal. From there, the following commands are available:
 As a first step, you should run `pipenv sync --dev` to set up your environment. You will also need to run this again if a teammate updates the
 `Pipfile` or `Pipfile.lock` - for example, if they add a new package to it, or remove an old one.
 
-your virtual environment and update the `Pipfile` and `Pipfile.lock` accordingly.
-
 Pipenv And You
 --------------
 
