@@ -9,3 +9,4 @@ Contents
 --------
 
 * [How to set up with Pipenv](./pipenv.md)
+* [Linting your code](./linting.md)
