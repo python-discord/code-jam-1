@@ -16,19 +16,9 @@ Make sure you have the following things installed:
 * Pipenv - you can install this by running `pip install pipenv` in a terminal or command prompt
     * Like before, make sure you can run `pipenv` in a terminal or command prompt
 
-Next up, install the project dependencies with `pipenv sync --dev` - this will also create a virtualenv for you automatically. If you need to edit your environment
-to add or remove packages, you can use `pipenv install packagename` and `pipenv uninstall packagename`, and the `Pipfile`s will be updated for you automatically. Your
-team members should run `pipenv sync --dev` again if you do this.
+Next up, set up your project with `pipenv`. We've [compiled some documentation](./doc) for you to read over if you get stuck - you can find it in the `doc/` folder.
 
-To get access to a shell, use `pipenv shell`. You can use `pipenv run filename.py` to run a Python file, or `pipenv run python -m module` to run a module instead.
-
-**Make sure you use Pipenv** - if you do not, your dependencies won't be available to your project.
-
-If you'd like to run or debug your code from within your IDE or editor, take a look at the output of `pipenv install --dev`. You'll notice that it gives you the path
-to the virtual environment it's created - For example, `/home/username/.virtualenvs/code-jam-1-FgMl5Zkj`. You can add the interpreter from your virtualenv to your
-IDE or editor as an interpreter. You'll find it in the `Scripts` directory - for example, `/home/username/.virtualenvs/code-jam-1-FgMl5Zkj/Scripts/python.exe`.
-
-If you need help with any of this, feel free to ask on the server.
+Remember, if you need help, you can always ask on the server!
 
 ## The Task
 
