@@ -16,9 +16,9 @@ Make sure you have the following things installed:
 * Pipenv - you can install this by running `pip install pipenv` in a terminal or command prompt
     * Like before, make sure you can run `pipenv` in a terminal or command prompt
 
-Next up, install the project dependencies with `pipenv install --dev` - this will also create a virtualenv for you automatically. If you need to edit your environment
+Next up, install the project dependencies with `pipenv sync --dev` - this will also create a virtualenv for you automatically. If you need to edit your environment
 to add or remove packages, you can use `pipenv install packagename` and `pipenv uninstall packagename`, and the `Pipfile`s will be updated for you automatically. Your
-team members should run `pipenv sync` if you do this.
+team members should run `pipenv sync --dev` again if you do this.
 
 To get access to a shell, use `pipenv shell`. You can use `pipenv run filename.py` to run a Python file, or `pipenv run python -m module` to run a module instead.
 
