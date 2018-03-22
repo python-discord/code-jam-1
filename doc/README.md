@@ -9,4 +9,5 @@ Contents
 --------
 
 * [How to set up with Pipenv](./pipenv.md)
+* [How to set up your Discord Bot](./bot-setup.md)
 * [Linting your code](./linting.md)
